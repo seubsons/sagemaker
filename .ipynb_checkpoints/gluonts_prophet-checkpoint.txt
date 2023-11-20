@@ -1,0 +1,10 @@
+prediction_length=306
+
+
+# Create a ProphetPredictor
+predictor = ProphetPredictor(
+    prediction_length=prediction_length
+)
+
+# Train the predictor on the training data
+predictor.predict(test_data)
